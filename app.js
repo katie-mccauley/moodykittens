@@ -80,10 +80,6 @@ function drawKittens() {
           <span><b> Gone Ran Away </b></span>
         </div>
         
-        <div class= "d-flex justify-content-center mt-1">
-          <button type="button" class="action fa fa-trash text-danger" onclick="removeKitten('${kitten.id}')">
-          </button>
-        </div>
 
       </div>
       `
@@ -106,10 +102,6 @@ function drawKittens() {
       <div class = "d-flex space-between mt-1">
         <button class="btn-cancel" onclick = "pet('${kitten.id}')">PET</button>
         <button id="catNip" onclick = "catnip('${kitten.id}')">CATNIP</button>
-      </div>
-      <div class= "d-flex justify-content-center mt-1">
-        <button type="button" class="action fa fa-trash text-danger" onclick="removeKitten('${kitten.id}')">
-        </button>
       </div>
     </div>
     `
